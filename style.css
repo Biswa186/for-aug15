@@ -1,0 +1,56 @@
+.spin{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	font-size:medium;
+	text-transform: capitalize;
+	text-shadow: 2px;
+	text-align: center;
+	border: 10px dotted rgb(205, 199, 197);
+	border-top: 10px dotted green;
+	border-bottom: 10px dotted rgb(255, 115, 0);
+	position: absolute;
+	right: 37%;
+	top: 15%;
+	animation: spin 5s ease-in 1s infinite normal ;
+}
+
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+		background-color: orangered;
+	}
+	50%{
+		background-color: rgb(255, 255, 255);
+	}
+	100%{
+		transform: rotate(360deg);
+		background-color: green;
+	}
+}
+.big{
+	background-image: url("main-qimg-0995a411287fd34d3fbd902295ee3146-lq.jpeg");
+	background-size: inherit;
+	height: 550px;
+	width: 1220px;
+	border-radius: 20px;
+	border: 10px solid rgb(205, 199, 197);
+	border-bottom: 10px solid green;
+	border-top: 10px solid orangered;
+	
+}
+.name{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: larger;
+	font-weight: 900;
+	background: linear-gradient(to left,green,white,orangered);
+	width: 700px;
+	position: absolute;
+	left: 22%;
+	
+}
