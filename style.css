@@ -53,3 +53,16 @@
 	left: 25%;
 	
 }
+.aug{
+	height: 200px;
+	border: 10px dotted rgb(205, 199, 197);
+	border-top: 10px dotted green;
+	border-bottom: 10px dotted rgb(255, 115, 0);
+	background: linear-gradient(to left,green,white,orangered);
+	display: flex;
+	font-weight: bold;
+	font-size: xx-large;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
