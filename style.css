@@ -55,6 +55,7 @@
 }
 .aug{
 	height: 200px;
+	width: 1220px;
 	border: 10px dotted rgb(205, 199, 197);
 	border-top: 10px dotted green;
 	border-bottom: 10px dotted rgb(255, 115, 0);
