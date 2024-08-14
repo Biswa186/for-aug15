@@ -3,6 +3,8 @@
 	width: 300px;
 	border-radius: 50%;
 	display: flex;
+	margin-left: 430px;
+        margin-top: 20px;
 	justify-content: center;
 	align-items: center;
 	font-weight: 500;
@@ -13,9 +15,6 @@
 	border: 10px dotted rgb(205, 199, 197);
 	border-top: 10px dotted green;
 	border-bottom: 10px dotted rgb(255, 115, 0);
-	position: absolute;
-	right: 37%;
-	top: 15%;
 	animation: spin 5s ease-in 1s infinite normal ;
 }
 
