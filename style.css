@@ -87,3 +87,11 @@
 	margin-bottom: 10px;
 	justify-content: center;
 }
+.img{
+	height: 300px;
+	width: 300px;
+	background-image: url("pngtree-78th-india-independence-day-vector-png-image_13307332.png");
+	background-size: cover;
+	display: flex;
+	margin-left: 42%;
+}
